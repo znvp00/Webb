@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+    <title></title>
+    <style>
+    body, h1 {
+      margin: 0px;
+    }
+    #scene {
+      height: 800px;
+      background-size: cover;
+      overflow: hidden;
+      background-attachment: fixed;
+    }
+    #scene h1 {
+      position: relative;
+      left: 50% ;
+      height: 50%;
+      transform: translateX(-50%) translateY(40%);
+      text-align: center;
+    }
+      .one{
+        background-image: url(images/제목-없음-3_08.png) ;
+      }
+      .two{
+        background-image: url(images/제목-없음-3_09.png) ;
+      }
+      .three{
+        background-image: url(images/제목-없음-3_10.png) ;
+      }
+      footer{
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+      .footer {  position: relative;
+        left: 50% ;
+        height: 50%;
+        transform: translateX(-50%) translateY(40%);
+        text-align: center;
+      font-family: 'Noto Sans KR' sans-serif;
+    font-size: 0.9rem;
+    font-weight: 100; color: gray;
+}
+/*-- 네비 적용  --*/
+.wrap{
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+}
+.logo{
+  display: inline-block;
+  margin-left: 240px;
+}
+.nav {
+  position: fixed;
+  right: 240px;
+  top: 35px;
+  font-family: 'Noto Sans KR' sans-serif;
+font-size: 1.1rem;
+font-weight: 600;
+}
+.space {
+  margin-left: 2rem;
+}
+/*-- 메뉴 컬러 및 툴오버 처라  --*/
+a, a:link :visited :active {
+  text-decoration: none;
+  color: gray;
+}
+a:hover{
+  color: #da0812;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <nav class="wrap">
+<div class="logo">
+  <a href="main.html.html">
+  <img src="images/index_02.png"> </a>
+</div>
+<div class="nav">
+  <a href="p01.html"> EF-S 35mm F2.8 Macro IS STM </a>
+  <span class="space"> </span>
+  <a href="p02.html"> EF-S 18-55mm F4-5.6 IS STM </a>
+  <span class="space"> </span>
+  <a href="p03.html"> EF 70-300mm F4-5.6 IS II USM </a>
+<div> </nav>
+  <section id="scene" class="one">
+  <h1> <img src="images/t01.png"> </h1>
+  </section>
+  <section id="scene" class="two">
+  <h1> <img src="images/t02.png"> </h1>
+  </section>
+  <section id="scene" class="three">
+  <h1> <img src="images/t03.png"> </h1>
+  </section>
+<footer> <div class="footer"> Copyright 2019 Canon Korea Consumer Imaging, Akk Right Reseved. </div>
+</footer>
+
+  </body>
+</html>
